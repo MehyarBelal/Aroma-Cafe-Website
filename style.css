@@ -33,3 +33,12 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+ul li {
+  list-style: none;
+  margin-right: 40px;
+}
+
+ul {
+  display: flex;
+}
