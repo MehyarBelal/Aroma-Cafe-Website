@@ -84,6 +84,10 @@ ul {
   justify-content: center;
   align-items: center;
   color: white;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu{
@@ -91,6 +95,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height:100vh;
 }
 .fnk{
   width: 30px;
