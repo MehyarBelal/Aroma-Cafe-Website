@@ -7,10 +7,16 @@
 .top {
   display: flex;
   justify-content: space-between;
+  background-color: #24a640;
+  color: white;
 }
 
 .left {
   display: flex;
+}
+
+.top i {
+  margin-right: 10px;
 }
 
 .location {
