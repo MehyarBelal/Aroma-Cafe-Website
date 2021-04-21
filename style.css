@@ -50,14 +50,25 @@ p{
 }
 
 header {
-  width: 100%;
+ 
   display: flex;
+
   justify-content: space-between;
+  align-items: center;
+padding: 10px 0;
+  
 }
 
 ul li {
   list-style: none;
-  margin-right: 40px;
+
+  font-size: 15px;
+  color: #000;
+  font-weight: 700;
+  padding: 0 25px;
+  text-transform: uppercase;
+  transition: all .3s ease;
+  margin-right: 30px;
 }
 
 ul {
@@ -69,6 +80,7 @@ ul {
   background-image: url('./images/thumbnail_IMG_5982.jpeg');
   height: 500px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
