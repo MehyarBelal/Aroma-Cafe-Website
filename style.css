@@ -42,3 +42,8 @@ ul li {
 ul {
   display: flex;
 }
+
+.banner{
+  background-image: url('./images/thumbnail_IMG_5982.jpeg');
+  height: 500px;
+}
