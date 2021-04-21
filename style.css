@@ -77,7 +77,7 @@ ul {
 
 .banner{
 
-  background-image: url('./images/thumbnail_IMG_5982.jpeg');
+  background-image: url('https://images.unsplash.com/photo-1555658094-ca794654362c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -95,7 +95,6 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height:100vh;
 }
 .fnk{
   width: 30px;
