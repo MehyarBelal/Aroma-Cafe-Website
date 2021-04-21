@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+}
+
+.location {
+  display: flex;
+}
+
+.phone {
+  display: flex;
+  margin-right: 20px;
+}
