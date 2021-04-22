@@ -8,6 +8,12 @@ p {
   margin: 0;
 }
 
+.bg-color {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .logo {
   display: flex;
 
@@ -109,17 +115,26 @@ ul {
   background-attachment: fixed;
 }
 
+.quote {
+  color: #a40e2d !important;
+  width: 30px !important;
+  height: 30px !important;
+  margin: 20px !important;
+}
+
 .about {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding: 2em 0em;
+  padding: 2em 1em;
+  background-color: #a40e2d;
+  color: white;
 }
 
 .about img {
   width: 50%;
-  height: 300px;
+  height: 350px;
 }
 
 .knf {
