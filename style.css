@@ -366,7 +366,7 @@ td:last-child span {
 }
 
 footer {
-  height: 80px;
+  height: 85px;
   background-color: #000;
   color: #fff;
   padding: 0 !important;
@@ -408,4 +408,21 @@ footer {
 .container-fluid {
   padding-right: 0 !important;
   padding-left: 0 !important;
+}
+
+.days {
+  font-weight: 800 !important;
+  margin-right: 10px;
+}
+
+.opening-times {
+  font-weight: 200 !important;
+}
+
+.line {
+  font-size: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
