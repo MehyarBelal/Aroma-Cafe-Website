@@ -146,3 +146,23 @@ ul {
   left: 40px;
   top: 50%;
 }
+
+h1 {
+  font-size: 40px;
+  font-family: "Athelas", serif;
+  line-height: 46px;
+  text-transform: uppercase;
+
+  margin: 5px 0 20px 0;
+  text-align: center;
+}
+
+h2 {
+  display: block;
+  letter-spacing: 0.12em;
+  font-size: 25px;
+  color: #fcb042;
+  font-weight: bold;
+  line-height: 36px;
+  text-transform: uppercase;
+}
