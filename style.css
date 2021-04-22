@@ -4,15 +4,39 @@
   margin: 0;
 }
 
-.top {
+p {
+  margin: 0;
+}
+
+.logo {
   display: flex;
-  justify-content: space-between;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+}
+
+.top {
   background-color: #962230;
+}
+
+.spread {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
   color: white;
+  align-items: center;
+  padding: 0.9em 0em;
 }
 
 .left {
   display: flex;
+  height: 100%;
+  align-items: center;
 }
 
 .top i {
@@ -21,11 +45,15 @@
 
 .location {
   display: flex;
+
+  align-items: center;
 }
 
 .phone {
   display: flex;
   margin-right: 20px;
+
+  align-items: center;
 }
 
 header {
@@ -36,9 +64,16 @@ header {
   align-items: center;
 }
 
-ul li {
+li {
   list-style: none;
-  margin-right: 40px;
+
+  font-size: 15px;
+  color: #000;
+  font-weight: 700;
+  padding-right: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  margin-right: 30px;
 }
 
 ul {
